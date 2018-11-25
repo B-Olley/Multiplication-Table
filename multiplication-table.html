@@ -1,0 +1,31 @@
+
+<html>
+< head></head>
+< body>
+< script type=”text/javascript”>
+< !–
+var row = 0;
+var column = 0;
+document.write (‘<table border=”1″>’);
+document.write (‘<TR>’);
+document.write(‘<Th colspan = “12”>Multiplication Table</th>’);
+document.write (‘<tr>’);
+document.write (‘<td align=”center”>x’);
+for (row = 1; row != 11; row++)
+{
+document.write(‘<td align=”right”>’ + row);
+}
+document.write(‘<tr>’);
+for (row = 1; row != 11; row++)
+{
+document.write(‘<td align=”right”>’ + row)
+for (column = 1; column != 11; column++){
+document.write (‘<TD align=”right”>’ + column*row);
+}
+document.write (“</tr>”);
+}
+document.write(“</table>”);
+//–>
+< /script>
+< /body>
+< /html>
