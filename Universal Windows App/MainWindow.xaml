@@ -1,0 +1,20 @@
+﻿<Window x:Class="Stringpractice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Stringpractice"
+        mc:Ignorable="d"
+        Title="MainWindow" HorizontalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" Width="520" Height="300">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+            <GradientStop Color="#FF0000B8" Offset="1"/>
+            <GradientStop Color="#FFDEDEFC"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid Cursor="None">
+        <TextBox x:Name="labelBox" HorizontalAlignment="Center" VerticalAlignment="Bottom" IsHitTestVisible="False" Tag="Label1" IsReadOnly="True" IsUndoEnabled="False" TextOptions.TextFormattingMode="Display" Cursor="None" TextAlignment="Center" FontFamily="Arial" Width="500" Height="150" RenderTransformOrigin="0.543,0.189" BorderThickness="0" AllowDrop="False" Focusable="False" IsTabStop="False" Background="#66B4B4FA" Padding="10,0,0,0" Foreground="Black" />
+        <TextBox x:Name="textBox2" HorizontalAlignment="Center" VerticalAlignment="Top" TextAlignment="Center" FontSize="36" Height="100" Width="488" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="16,0" BorderThickness="0" AllowDrop="False" Focusable="False" IsTabStop="False" IsHitTestVisible="False" Cursor="None" Background="#66B4B4FA" BorderBrush="{x:Null}" MaxHeight="100" MaxWidth="488"/>
+        <TextBox x:Name="date1" HorizontalAlignment="Right" VerticalAlignment="Top" TextAlignment="Center" FontSize="14" Height="34" Width="115" Margin="0,10,10,0" Padding="0,5,0,0" AutomationProperties.IsOffscreenBehavior="Onscreen" Background="#00000000" Foreground="#FFFD0404" FontFamily="Myriad Pro" BorderThickness="0" TextOptions.TextFormattingMode="Display" FontWeight="Black" IsUndoEnabled="False" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Focusable="False" AllowDrop="False" IsHitTestVisible="False" IsTabStop="False"/>
+    </Grid>
+</Window>
