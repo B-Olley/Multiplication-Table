@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Multiplication_Table_C_sharp
 {
